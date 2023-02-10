@@ -20,5 +20,5 @@ jobs:
     - name: Upload built jar file
       uses: actions/upload-artifact@v2
       with:
-        name: ${{ mindustry-Extra-Utilities-mod }} Pull Request
-        path: build/libs/${{ mindustry-Extra-Utilities-mod }}.jar
+        name: ${{ ExtraUtilities }} Pull Request
+        path: build/libs/${{ ExtraUtilities }}.jar
