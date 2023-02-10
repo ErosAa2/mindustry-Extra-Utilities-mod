@@ -20,5 +20,5 @@ jobs:
     - name: Upload built jar file
       uses: actions/upload-artifact@v2
       with:
-        name: ${{ mindustry-Extra-Utilities-mod}}
-        path: build/libs/${{ mindustry-Extra-Utilities-mod}}.jar
+        name: ${{ mindustry-Extra-Utilities-mod }}
+        path: build/libs/${{ mindustry-Extra-Utilities-mod }}.jar
